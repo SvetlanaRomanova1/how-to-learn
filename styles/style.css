@@ -7,7 +7,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   margin-top: 0;
 }
 
@@ -25,7 +25,7 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  background:  #f2f2f2;
+  background: #f2f2f2;
   display: flex;
   position: relative;
 }
@@ -82,9 +82,10 @@
   z-index: 2;
 }
 
-.header__link {
+.link__internal {
   color: #2f80ed;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Стили для блока description */
@@ -167,7 +168,7 @@
 }
 
 .digits__table__cell {
-  max-width: 250px;
+  width: 250px;
 }
 
 .digits__table__heading {
@@ -186,4 +187,125 @@
 
 .digits__space_bottom {
   margin: 0 0 20px 0;
+}
+
+/*Блок feynman*/
+.feynman {
+  height: 890px;
+  background: #f2f2f2;
+  position: relative;
+}
+
+.feynman__title {
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  display: block;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.feynman-block {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.feynman__last_name {
+  display: block;
+}
+
+/*Блок kaufman*/
+.kaufman {
+  background-color: black;
+  padding: 90px 0;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.table__heading_theme_dark {
+  color: #f2f2f2;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0;
+}
+
+.section-title_theme_dark {
+  color: #f2f2f2;
+}
+
+.section-subtitle_theme_dark {
+  color: #f2f2f2;
+}
+  
+
+.section-subtitle {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: auto;
+}
+
+.table {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px 0;
+  z-index: 2;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: -1;
 }
