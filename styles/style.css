@@ -170,9 +170,6 @@
   margin: 20px 0 0 0;
 }
 
-.space_bottom {
-  margin: 0 0 20px 0;
-}
 
 /*Стили для блока feynman*/
 .feynman {
@@ -217,7 +214,19 @@
 .kaufman {
   padding: 90px 0;
   position: relative;
-  background: #1f1f1f url("../images/kaufman-triangle.svg") no-repeat right -210px top / 877px;
+  z-index: 0;
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: -1;
+  width: 877px;
+  height: 877px;
+  background: url(../images/kaufman-triangle.svg) no-repeat 0 0 / 877px;
 }
 
 .table__heading_theme_dark {
@@ -311,6 +320,6 @@ height: 32px;
   color: #fff;
 }
 
-.footer__column-icon {
+.footer__social-icon{
   padding-right: 10px;
 }
