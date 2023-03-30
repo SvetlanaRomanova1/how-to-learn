@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/blocks/rotation.css">
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="styles/blocks/rotation/rotation.css">
 </head>
 
 <body class="page">
   <!--Блок header-->
   <header class="header">
-    <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
+    <img class="logo logo__place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
     <h1 class="header__title">Научиться учиться</h1>
     <h2 class="header__subtitle">
       Какие современные и эффективные подходы к обучению вы можете
@@ -185,6 +186,33 @@
         </li>
       </ul>
     </section>
+    <!--Блок khan-->
+    <section class="khan">
+      <div class="khan__container">
+        <p class="khan__author">
+          Салман Хан
+        </p>
+        <h2 class="khan__title">
+          Весь мир — школа
+        </h2>
+        <p class="khan__quote">
+          Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
+          школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
+          знания, которые приносят успех в школе, карьере и жизни.
+        </p>
+        <h2 class="khan__quote-author">
+          Джордж Лукас
+        </h2>
+        <p class="khan__quote-author-subline">
+          Кинорежиссер, продюсер
+        </p>
+        <div class="khan__book-container">
+          <div class="khan__book-pic"></div>
+          <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
+        </div>
+      </div>
+
+    </section>
     <!--Блок kaufman-->
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">
@@ -255,7 +283,40 @@
           </p>
         </li>
       </ul>
-      <div class="kaufman__triangle"></div>
+      <div class="kaufman__triangle rotation"></div>
+    </section>
+    <!--Блок resources-->
+    <section class="resources">
+      <h2 class="section-title">
+        Полезные ресурсы
+      </h2>
+      <h3 class="section-subtitle">
+        Больше материалов о техниках и лайфаках обучения
+      </h3>
+      <nav class="resources__logo-zone">
+        <ul class="resources__link">
+          <li>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-arzamas.svg" alt="Ссылка арзамас" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-n1.svg" alt="Ссылка номер 1" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-strelka.svg" alt="Ссылка стрелка" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="resources__logo">
+              <img src="images/logo/resources-polka.svg" alt="Ссылка полка" class="resources__logo">
+            </a>
+          </li>
+        </ul>
+      </nav>
     </section>
   </main>
   <!--Блок footer-->
@@ -263,7 +324,7 @@
     <div class="footer__columns">
       <div class="footer__column_content_copyright">
         <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
-        <p class="footer__autor">&copy; Виктор Абанькин</p>
+        <p class="footer__author">&copy; Виктор Абанькин</p>
       </div>
       <nav class="footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>

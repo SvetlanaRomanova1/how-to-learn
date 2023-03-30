@@ -1,0 +1,7 @@
+/*Стили для блока oakley*/
+.oakley {
+  padding: 160px 0 0 0;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}

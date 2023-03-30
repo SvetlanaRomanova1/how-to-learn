@@ -1,0 +1,8 @@
+.cards__item {
+  list-style: none;
+  flex-basis: 240px;
+}
+
+.cards__item:nth-child(3n) {
+  margin: 0;
+}
