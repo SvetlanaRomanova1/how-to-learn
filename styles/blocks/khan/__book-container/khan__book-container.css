@@ -2,4 +2,6 @@
   display: flex;
   gap: 48px;
   align-items: flex-start;
+  position: relative;
+  height: 608px;
 }
