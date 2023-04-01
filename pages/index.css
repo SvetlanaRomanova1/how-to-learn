@@ -29,7 +29,7 @@
 @import url(../styles/blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../styles/blocks/section-subtitle/section-subtitle.css);
 @import url(../styles/blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../styles/blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../styles/blocks/table/__cell/_theme/_dark/table__cell_theme_dark.css);
 @import url(../styles/blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../styles/blocks/footer/footer.css);
 @import url(../styles/blocks/footer/__columns/footer__columns.css);
