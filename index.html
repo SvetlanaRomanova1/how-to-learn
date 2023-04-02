@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="pages/index.css">
-  <link rel="stylesheet" href="styles/blocks/rotation/rotation.css">
 </head>
 
 <body class="page">
@@ -28,7 +26,7 @@
   <main class="content">
     <!--Блок description -->
     <section class="description">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">
           Главные проблемы в обучении
         </h2>
@@ -51,7 +49,7 @@
             применяются на примере обучения в Практикуме.
           </p>
         </div>
-      </div>
+      </article>
     </section>
     <!--Блок  techniques-->
     <section class="techniques">
@@ -105,12 +103,16 @@
       <h3 class="section-subtitle">
         Для тех, кто любит прокрастинировать
       </h3>
-      <div class="video__iframes">
-        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU">
+      <ul class="video__iframes">
+        <li>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU">
         </iframe>
-        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY">
+        </li>
+        <li>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY">
         </iframe>
-      </div>
+        </li>
+      </ul>
     </section>
     <!--Блок oakley-->
     <section class="oakley">
@@ -197,11 +199,13 @@
         <h2 class="khan__title">
           Весь мир — школа
         </h2>
-        <p class="khan__quote">
+        <blockquote>
+          <p class="khan__quote">
           Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
           школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
           знания, которые приносят успех в школе, карьере и жизни.
         </p>
+        </blockquote>
         <p class="khan__quote-author">
           Джордж Лукас
         </p>
@@ -294,30 +298,28 @@
       <h3 class="section-subtitle">
         Больше материалов о техниках и лайфаках обучения
       </h3>
-      <nav class="resources__logo-zone">
-        <ul class="resources__link">
+        <ul class="resources__logo-zone">
           <li>
-            <a href="#" class="resources__logo">
-              <img src="./images/logo/resources-arzamas.svg" alt=" Иконка ресурса - арзамас">
+            <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt=" Иконка ресурса - арзамас">
             </a>
           </li>
           <li>
-            <a href="#" class="resources__logo">
-              <img src="./images/logo/resources-n1.svg" alt="Иконка ресурса - номер 1">
+            <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Иконка ресурса - номер 1">
             </a>
           </li>
           <li>
-            <a href="#" class="resources__logo">
-              <img src="./images/logo/resources-strelka.svg" alt="Иконка ресурса - стрелка">
+            <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Иконка ресурса - стрелка">
             </a>
           </li>
           <li>
-            <a href="#" class="resources__logo">
-              <img src="./images/logo/resources-polka.svg" alt="Иконка ресурса - полка">
+            <a href="#" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Иконка ресурса - полка">
             </a>
           </li>
         </ul>
-      </nav>
     </section>
   </main>
   <!--Блок footer-->
